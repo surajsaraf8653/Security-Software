@@ -3,7 +3,7 @@ import sys
 
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture("http://192.168.43.181:4747/video")
 
 while True:
     # Capture frame-by-frame
